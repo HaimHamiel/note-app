@@ -9,7 +9,7 @@ This is a Basic MERN Application Template
 
 **Client:** React 
 
-**Server:** Node, Express
+**Server:** MongodDB, Node, Express
 
 
 ## Run Locally
