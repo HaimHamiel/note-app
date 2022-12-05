@@ -20,7 +20,7 @@ This is a Basic MERN Application Template
 
 ## Tech Stack
 
-**Client:** React, Redux,
+**Client:** React, Redux
 
 **Server:** Node, Express
 
