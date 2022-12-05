@@ -18,7 +18,11 @@ React, NodeJS, MongoDB...
 
 This is a Basic MERN Application Template
 
+## Tech Stack
 
+**Client:** React, Redux,
+
+**Server:** Node, Express
 
 ## Demo
 
@@ -26,11 +30,7 @@ This is a Basic MERN Application Template
 ![Login Page](images/Login.png?raw=true "Login")
 ![Register Page](images/Register.png?raw=true "Register")
 ![Dashboard Page](images/Dashboard.png?raw=true "Dashboard")
-## Tech Stack
 
-**Client:** React, Redux,
-
-**Server:** Node, Express
 
 ## Run Locally
 
