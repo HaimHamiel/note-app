@@ -5,7 +5,7 @@ function Home() {
     <>
       <section className="heading">
         <h1>Welcome to my Basic App</h1>
-        <p>Where do you wnat to go?</p>
+        <p>Where do you want to go?</p>
       </section>
       <Link to="/register" className="btn btn-block">
             <FaUser /> Register
