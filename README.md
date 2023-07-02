@@ -26,11 +26,10 @@ This is a Basic MERN Application Template
 
 ## Demo
 
-![Home Page](images/Home.png?raw=true "Home")
-![Login Page](images/Login.png?raw=true "Login")
-![Register Page](images/Register.png?raw=true "Register")
-![Dashboard Page](images/Dashboard.png?raw=true "Dashboard")
-
+![Imgur](https://imgur.com/QVl28zM.png "Home")
+![Imgur](https://imgur.com/HSeNTBJ.png "Dashboard")
+![Imgur](https://imgur.com/yINJYQn.png "Login")
+![Imgur](https://imgur.com/lkbd8oG.png "Register")
 
 ## Run Locally
 
