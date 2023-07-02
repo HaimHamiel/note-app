@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { register, reset } from "../features/auth/authSlice";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Spinner from "../components/Spinner";
+import Spinner from "../components/Layout/Spinner";
 
 function Register() {
   const [formData, setFormData] = useState({

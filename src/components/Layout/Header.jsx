@@ -1,9 +1,17 @@
-import { FaSignInAlt, FaSignOutAlt, FaUser } from "react-icons/fa";
+// import logo from "../../assets/logo.svg";
+import {
+  FaSignInAlt,
+  FaSignOutAlt,
+  FaUser,
+  FaClipboard,
+} from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
-import { logout, reset } from "../features/auth/authSlice";
+import { logout, reset } from "../../features/auth/authSlice";
 
 function Header() {
+  const path = window.location.pathname;
+
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const { user } = useSelector((state) => state.auth);
@@ -17,15 +25,25 @@ function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/">Basic App</Link>
+        <Link to="/">
+          {/* <img src={logo} style={{ height: 70, width: 200 }} alt="logo" /> */}
+        </Link>
       </div>
       <ul>
         {user ? (
-          <li>
-            <button className="btn" onClick={onLogout}>
-              <FaSignOutAlt /> Logout
-            </button>
-          </li>
+          <>
+            {" "}
+            <li className={path === "/Dashboard" ? "active" : ""}>
+              <Link to="/dashboard">
+                <FaClipboard /> Dashboard
+              </Link>
+            </li>
+            <li>
+              <button className="btn" onClick={onLogout}>
+                <FaSignOutAlt /> Logout
+              </button>
+            </li>
+          </>
         ) : (
           <>
             <li>
