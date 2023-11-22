@@ -1,6 +1,6 @@
 
 ## 🚀 About Me
-My name is Haim, I’m a Full stack developer experienced with React, NodeJS, and MongoDB.
+My name is Haim, I’m a Full-stack developer experienced with React, NodeJS, and MongoDB.
 I have built web platforms that help users create smart consumption habits and reduce monthly costs.
 
 
@@ -36,31 +36,25 @@ This is a Basic MERN Application Template
 Clone the project
 
 ```bash
-git clone https://github.com/HaimHamiel/basic-application.git
+git clone https://github.com/HaimHamiel/note-app.git
 ```
 
 Go to the project directory
 
 ```bash
-cd basic-application
+cd note-app
 ```
 
 Set Environment Variables
 
 Rename the .envexample to .env and add your MongoDB database URI and your JWT secret
 
-Install backend dependencies
+Install dependencies
 ```bash
 npm install
 ```
 
-Install client dependencies
-```bash
-cd frontend
-npm install
-```
-
-Run app in development (frontend & backend)
+Run app in development (You need to run it from the server side)
 
 ```bash
 npm run dev
