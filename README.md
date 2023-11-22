@@ -54,7 +54,7 @@ Install dependencies
 npm install
 ```
 
-Run app in development (You need to run it from the server side)
+Run app in development (You need to run it from the [server](https://github.com/HaimHamiel/note-app-server) side)
 
 ```bash
 npm run dev
