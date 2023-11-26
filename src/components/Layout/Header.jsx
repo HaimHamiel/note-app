@@ -3,7 +3,7 @@ import {
   FaSignInAlt,
   FaSignOutAlt,
   FaUser,
-  FaClipboard,
+  FaHome,
 } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
@@ -33,9 +33,9 @@ function Header() {
         {user ? (
           <>
             {" "}
-            <li className={path === "/Dashboard" ? "active" : ""}>
-              <Link to="/dashboard">
-                <FaClipboard /> Dashboard
+            <li className={path === "/" ? "active" : ""}>
+              <Link to="/">
+                <FaHome /> Home
               </Link>
             </li>
             <li>

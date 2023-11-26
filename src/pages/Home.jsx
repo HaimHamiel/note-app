@@ -1,20 +1,23 @@
-import { Link } from "react-router-dom";
-import { FaSignInAlt, FaUser } from "react-icons/fa";
+import { Link } from 'react-router-dom'
+import { FaQuestionCircle, FaStickyNote } from 'react-icons/fa'
+
 function Home() {
   return (
     <>
-      <section className="heading">
-        <h1>Welcome to my Basic App</h1>
-        <p>Where do you want to go?</p>
+      <section className='heading'>
+        <h1>What do you need help with?</h1>
+        <p>Please choose from an option below</p>
       </section>
-      <Link to="/register" className="btn btn-block">
-            <FaUser /> Register
+
+      <Link to='/new-note' className='btn btn-reverse btn-block'>
+        <FaQuestionCircle /> Create New Note
       </Link>
-      <Link to="/login" className="btn btn-block">
-            <FaSignInAlt /> Login
+
+      <Link to='/notes' className='btn btn-block'>
+        <FaStickyNote /> View My Notes
       </Link>
     </>
-  );
+  )
 }
 
-export default Home;
+export default Home

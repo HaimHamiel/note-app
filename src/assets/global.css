@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   height: 100vh;
 }
 
@@ -185,6 +185,78 @@ h3 {
   transform: scale(0.98);
 }
 
+.note-created {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.note-number {
+  margin-bottom: 30px;
+}
+
+.note-number h2 {
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+}
+
+.note-number p {
+  font-size: 1.3rem;
+}
+
+.note-info {
+  font-size: 1.3rem;
+}
+
+.note,
+.note-headings {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background: #f4f4f4;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.note-headings {
+  font-weight: 700;
+}
+
+.item-desc {
+  background-color: #333;
+  color: #fff;
+  width: 100px;
+  padding: 0 20px;
+  justify-self: center;
+  border-radius: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.note-page {
+  position: relative;
+  text-align: left;
+}
+
+.note-page h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.note-page .btn {
+  margin-bottom: 30px;
+}
+
+.note-page .btn-block {
+  width: 100%;
+  margin-top: 30px;
+}
+
 .btn-close {
   background: none;
   border: none;
@@ -200,6 +272,7 @@ h3 {
   color: red;
   transform: scale(0.98);
 }
+
 
 footer {
   position: sticky;
@@ -245,6 +318,11 @@ footer {
 
   .form {
     width: 90%;
+  }
+
+  .note-created h2,
+  .heading h1 {
+    font-size: 2rem;
   }
 
   .heading p {

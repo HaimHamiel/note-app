@@ -28,7 +28,7 @@ function Login() {
 
     // Redirect when logged in
     if (isSuccess || user) {
-      navigate("/dashboard");
+      navigate("/new-note");
     }
     dispatch(reset);
   }, [isError, isSuccess, user, message, navigate, dispatch]);

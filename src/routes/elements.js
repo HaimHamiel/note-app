@@ -11,5 +11,7 @@ const Loadable = (Component) => (props) =>
 export const Home = Loadable(lazy(() => import("../pages/Home")));
 export const Login = Loadable(lazy(() => import("../pages/Login")));
 export const Register = Loadable(lazy(() => import("../pages/Register")));
-export const Dashboard = Loadable(lazy(() => import("../pages/Dashboard")));
+export const NewNote = Loadable(lazy(() => import("../pages/NewNote")));
+export const Notes = Loadable(lazy(() => import("../pages/Notes")));
+export const Note = Loadable(lazy(() => import("../pages/Note")));
 export const PrivateRoute = Loadable(lazy(() => import("../components/PrivateRoute")));

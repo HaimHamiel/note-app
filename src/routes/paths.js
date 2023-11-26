@@ -2,5 +2,7 @@ export const appPaths = {
   home: "/",
   login: "/login",
   register: "/register",
-  dashboard: "/Dashboard",
+  newNote: "/new-note",
+  notes: "/notes",
+  note: "/note/:noteId",
 };
